@@ -1,0 +1,566 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container{
+  padding: 0;
+  margin: 0;
+}
+/* ここまでリセットcss */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ここからcss */
+body{
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+    body{
+      /* position: relative; */
+    }
+
+
+
+/* <!-- ここからinner--> */
+.container-box{
+  max-width: 740px;
+  margin: 0 auto;
+  position: relative;
+}
+.inner{
+  margin: 45px 20px;
+}
+header{
+  margin-top: 40px;
+}
+
+
+/* ここからheader */
+header{
+  height:75px ;
+}
+header h1{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+header p{
+  font-size: 15px;
+  color: #777777;
+  margin-top: 13px;
+}
+
+.navbar-toggler{
+ border-color: rgba(0,0,0,0) !important;
+ position: absolute;
+ top: -30px;
+ right: 3px;
+ /* position: fixed; */
+ padding: 0 !important;
+}
+
+
+/* ここからmain    inner-top */
+.contaier-pic img{
+  width: 100%;
+  margin-top: 65px;
+
+}
+.inner h2{
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  line-height: 41px;
+  color: #777777;
+
+}
+
+
+/* ここからcontent */
+.content-item ul{
+  list-style: none;
+}
+.content-item ul li time{
+  font-size: 14px;
+  line-height: 25px;
+  color: #999999;
+}
+.content-item ul li h3{
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 700;
+  margin:10px 0 ;
+
+}
+.content-item ul li p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #666666;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+.content a{
+  color:#666666;
+  border: #666666 solid 1px;
+  padding: 11px 18px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.content a:hover{
+  color: #333333;
+}
+.content a::after{
+  content: ">>";
+}
+hr{
+  margin-top: 60px;
+}
+
+
+
+/* ここからfooter */
+.footer-profile{
+  margin-bottom: 64px;
+}
+.footer-profile img{
+  border-radius: 50%;
+  width: 102px;
+  margin-right: 18px;
+}
+.footer-profile p{
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+}
+.pic-sns{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.name-sns{
+
+}
+.name{
+  padding: 8px;
+
+}
+.footer-profile-sns{
+  margin-top: 8px;
+}
+.footer-profile-sns ul li a i{
+  padding: 8px;
+}
+.footer-profile-sns ul li a i:hover{
+  transition-duration: 0.5s;
+  color: #111111;
+}
+.sns ul{
+  display: flex;
+  list-style: none;
+}
+.sns ul li a{
+  color: #999999;
+}
+
+
+.aside-top{
+  margin-bottom: 140px;
+}
+.aside h3{
+  margin-bottom: 33px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333333;
+}
+.aside p{
+  font-size: 13px;
+  color: #666666;
+  line-height: 22px;
+}
+.aside-item ul{
+  margin-bottom: 60px;
+  list-style: none;
+}
+.aside-item li{
+  display: flex;
+  flex-direction: column;
+}
+.aside-item ul li a{
+}
+.aside-item ul li p{
+  color: #666666;
+  line-height: 24px;
+  display: inline-block;
+  font-size: 14px;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 8px;
+}
+.aside-item ul li p:hover{
+  color: #c49029;
+  transition-duration: 0.3s;
+}
+.aside-item ul li time{
+  font-size: 12px;
+  color: #999999;
+  line-height: 22px;
+  /* margin-top: 10px; */
+}
+#search{
+  border-color: #999999 !important; 
+  width: 295px;
+  height: 33px;
+  padding: 10px ;
+}
+
+
+/* ここからfooter-item */
+.footer-item{
+  margin-top: 43px;
+}
+.footer-item-sns{
+  margin-bottom: 30px;
+}
+.footer-item-sns ul li a i{
+  padding: 8px;
+  margin-right: 6px;
+}
+.footer-item-sns ul li a i:hover{
+  color: #111111;
+  transition-duration: 0.3s;
+}
+/* .snsアイコン */
+.footer-item .fab{
+  font-size: 1.5rem;
+}
+
+.footer-item p{
+  font-size: 13px;
+  color: #999999;
+}
+.footer-item a{
+  font-size: 13px;
+  color: #666666;
+  text-decoration: none;
+}
+.footer-item a:hover{
+  color: #111111;
+  transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ここから@media */
+/* // 画面サイズが782px以上に適用 */
+@media (min-width: 768px){      
+  .container-box{
+    max-width: 700px;
+  }
+
+  /* ここからheader */
+  nav{
+    padding: 0 !important;
+  }
+  header h1{
+    font-size: 36px;
+    line-height: 43px;
+  }
+  header p{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  /* ここからmain */
+  .contaier-pic{
+    margin-top: 70px;
+  }
+  /* ここからinner */
+  .inner{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .inner h2{
+     font-size: 27px;
+     line-height: 49px;
+     padding: 0 0 20px;
+  }
+
+  /* ここからcontent */
+  .content-item ul li time{
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .content-item ul li h3{
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .content-item ul li p{
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  /* ここからfooter */
+  /* .footer-profile */
+  .footer-profile p{
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  /* footer-content */
+  /* .aside-top */
+  .aside h3{
+    font-size: 14px;
+    line-height: 20px;
+  } 
+  .aside-top p{
+     font-size: 16px;
+     line-height: 27px;
+  }
+  .aside-item ul li a p{
+    font-size: 17px;
+    line-height: 29px;
+  }
+  .aside-item ul li time{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #search{
+    /* padding: 15px; */
+    height: 40px;
+    width: 320px;
+  }
+
+  /* ここから.footer-item */
+  .footer-item{
+    margin-bottom: 55px;
+  }
+   .footer-item p ,.footer-item a{
+     font-size: 16px;
+     line-height: 28px;
+   }
+} 
+
+
+
+/* // 画面サイズが980px以上に適用 */
+@media (min-width: 992px){   
+  body{
+    margin: 60px 40px;
+  }  
+  .container-box{
+    max-width: 1040px;
+  }
+
+  /* ここからheader */
+  header ul{
+    /* margin-top: 190px; */
+    padding-top: 30px;
+    padding-right: 140px;
+  }
+
+  header  h1{
+    font-size: 36px;
+  }
+    
+
+  /* ここからmain */
+  .contaier-pic{
+    margin-top: 10px;
+  }
+
+  /* ここからcontent  */
+  .content-item ul li{
+    display: flex;
+  }
+  .content-item ul li time{
+    display: block;
+    width: 130px;
+  }
+  .content-item ul li .text{
+    margin-left: 240px;
+    width: 700px;
+  }
+
+  /* ここからfooter */
+  hr{
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+  .footer-flex{
+    display: flex;
+  }
+  .footer-profile{
+    width: 260px;
+    margin-right: 70px;
+  }
+  .footer-content{
+    display: flex;
+  }
+  .footer-content .aside{
+    width: 180px;
+    margin-right: 50px;
+  }
+  .footer-content .aside-top{
+    width: 210px;
+  }
+  .footer-content .aside li{
+    line-height: 31px;
+    margin-bottom: 15px;
+  }
+  #search{
+    width: 213px;
+    margin-top: 80px;
+  }
+
+  .footer-item{
+    display: flex;
+  }
+  .footer-item p{
+  }
+  .footer-item-sns{
+    width: 330px;
+  }
+
+}
